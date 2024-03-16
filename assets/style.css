@@ -1,17 +1,14 @@
 
-/* ------------------- */
-/* Global Declarations */
-/* ------------------- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
 
-    /* debugging */
- /*border: 1px solid white;
 
-    /* global default font */
+ /*border: 1px solid white;*/
+
+
     font-family: monospace;
 }
 
@@ -39,9 +36,9 @@ h1, h2 {
     text-align: center;
 }
 
-/*-------------------------*/
-/* Outer-Container Section */
-/*-------------------------*/
+
+/* Outer-Con  */
+
 
 .outer-con {
     padding: 10px;
@@ -51,17 +48,17 @@ h1, h2 {
     justify-content: start;
 }
 
-/*-------------------*/
-/* Top-Bar Container */
-/*-------------------*/
+
+/* Top-Con */
+
 
 .top p{
     float: left;
 }
 
-/*-------------------------*/
-/* Inner-Container Section */
-/*-------------------------*/
+
+/* Inner-Con */
+
 
 .inner-con {
     background-color: rgb(14, 12, 15) ;
@@ -74,12 +71,8 @@ h1, h2 {
 }
 
 
+/* Header/Quiz Start  */
 
-
-
-/*---------------------------*/
-/* Header/Quiz Start Section */
-/*---------------------------*/
 
 .Quiz-Start, main {
     display: none;
@@ -98,40 +91,27 @@ h1, h2 {
 
 }
 
-/*-------------------*/
 /* Main Quiz Content */
-/*-------------------*/
 
 main {
     display: block;
 }
 
-
-
-/*----------------*/
 /* Quiz Questions */
-/*----------------*/
+
 
 .Quiz-Questions {
     display: none;
 }
 
-/*-----------------*/
 /* Quiz Completion */
-/*-----------------*/
 
 .Quiz-Completion {
     display: none;
 }
 
-
-
-/*-------------*/
 /* High Scores */
-/*-------------*/
 
 .High-Scores {
     display: block;
 }
-
-
