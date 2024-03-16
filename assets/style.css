@@ -1,0 +1,137 @@
+
+/* ------------------- */
+/* Global Declarations */
+/* ------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+    /* debugging */
+ /*border: 1px solid white;
+
+    /* global default font */
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(66, 66, 66);
+
+}
+
+p{
+
+
+    font-size: 1.3em;
+}
+
+button{
+    outline: none;
+    background-color: white;
+    color: black;
+    float: right;
+    font-size: 1.3em;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+/*-------------------------*/
+/* Outer-Container Section */
+/*-------------------------*/
+
+.outer-con {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/*-------------------*/
+/* Top-Bar Container */
+/*-------------------*/
+
+.top p{
+    float: left;
+}
+
+/*-------------------------*/
+/* Inner-Container Section */
+/*-------------------------*/
+
+.inner-con {
+    background-color: rgb(14, 12, 15) ;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+/*---------------------------*/
+/* Header/Quiz Start Section */
+/*---------------------------*/
+
+.Quiz-Start, main {
+    display: none;
+    margin-bottom:30vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Quiz-Start p {
+    text-align: center;
+}
+
+.Quiz-Start button {
+    display: block;
+    margin: 0 auto;
+
+}
+
+/*-------------------*/
+/* Main Quiz Content */
+/*-------------------*/
+
+main {
+    display: block;
+}
+
+
+
+/*----------------*/
+/* Quiz Questions */
+/*----------------*/
+
+.Quiz-Questions {
+    display: none;
+}
+
+/*-----------------*/
+/* Quiz Completion */
+/*-----------------*/
+
+.Quiz-Completion {
+    display: none;
+}
+
+
+
+/*-------------*/
+/* High Scores */
+/*-------------*/
+
+.High-Scores {
+    display: block;
+}
+
+
